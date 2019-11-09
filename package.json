@@ -1,0 +1,46 @@
+{
+  "name": "typescript-ddd-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@types/jest": "^24.0.22",
+    "decimal.js": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.7",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "eslint": "^6.6.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^24.9.0",
+    "lerna": "^3.18.4",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "install:all": "npm run lerna:bootstrap",
+    "start": "NODE_ENV=prod tsc && node ./build/src/index.js",
+    "dev": "NODE_ENV=dev ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "tsc": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lerna:list": "lerna ls",
+    "lerna:bootstrap": "lerna bootstrap --hoist",
+    "lerna:clean": "lerna clean --yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FongX777/typescript-ddd-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FongX777/typescript-ddd-starter/issues"
+  },
+  "homepage": "https://github.com/FongX777/typescript-ddd-starter#readme",
+  "description": ""
+}

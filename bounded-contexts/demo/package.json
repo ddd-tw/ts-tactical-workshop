@@ -1,0 +1,26 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "description": "a demo bounded context",
+  "author": "fong <fong1143@gmail.com>",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FongX777/typescript-ddd-starter.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/FongX777/typescript-ddd-starter/issues"
+  },
+  "homepage": "https://github.com/FongX777/typescript-ddd-starter#readme",
+  "dependencies": {
+    "ddd-lib": "^1.0.0",
+    "decimal.js": "^10.2.0"
+  }
+}
